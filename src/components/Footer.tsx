@@ -74,7 +74,7 @@ const Footer: FC = () => {
 
         {/* Copyright */}
         <div className="text-center text-sm">
-          <p>© copyright pakfinancials.com 2025. All Rights Reserved</p>
+          <p>© pakfinancials 2025. All Rights Reserved</p>
         </div>
       </div>
     </footer>

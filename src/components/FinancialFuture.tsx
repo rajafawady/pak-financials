@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, JSX } from 'react';
 import { PhoneCall, Search, MessageCircle } from 'lucide-react';
 
 interface FeatureCard {
