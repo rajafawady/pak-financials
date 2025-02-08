@@ -31,7 +31,7 @@ const FinancialLiteracySection: FC = () => {
   ];
 
   return (
-    <section className="w-full bg-gray-50 py-12 px-4 md:py-20">
+    <section className="w-full bg-gray-50 px-4 md:py-20">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12 md:mb-16">

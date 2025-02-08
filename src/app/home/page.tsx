@@ -52,7 +52,7 @@ export default function Home() {
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
-          className="mt-8 md:mt-0 md:ml-10"
+          className="mt-8 md:mt-0 md:ml-10 hidden md:block"
         >
           <Image
             src="/20231005.jpg"
@@ -66,7 +66,7 @@ export default function Home() {
 
 
       {/* Reviews Section */}
-    <section className="w-full max-w-5xl mt-10">
+    {/* <section className="w-full max-w-5xl mt-10">
       <div className="flex flex-col gap-6">
         {reviews.map((review, index) => (
         <div key={index} className="flex items-start gap-4 bg-white p-4 rounded-lg shadow-md">
@@ -85,7 +85,7 @@ export default function Home() {
         </div>
         ))}
       </div>
-    </section>
+    </section> */}
 
         <section>
           <ImageShowcase />

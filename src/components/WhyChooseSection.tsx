@@ -17,8 +17,8 @@ const StatCard: React.FC<StatCardProps> = ({ number, title, subtitle }) => (
 
 const WhyChooseSection = () => {
   return (
-    <div className="min-h-screen bg-gray-50 relative overflow-hidden w-full">
-      <div className="max-w-5xl mx-auto px-6 py-16">
+    <div className="bg-gray-50 relative overflow-hidden w-full">
+      <div className="max-w-5xl mx-auto lg:px-6 lg:py-16">
         {/* Header Section */}
         <div className="max-w-5xl mb-20">
           <div className="relative">

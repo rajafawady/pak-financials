@@ -51,7 +51,7 @@ const ImageContainer = ({ src, alt, priority = false }: ImageContainerProps) => 
 
 const ImageShowcase = () => {
   return (
-    <div className="min-h-screen p-4 sm:p-6 lg:p-12 relative overflow-hidden">
+    <div className="p-4 sm:p-6 lg:p-12 relative overflow-hidden z-100">
       <div className="max-w-5xl mx-auto relative">
         {/* Main Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-8 relative">
@@ -59,7 +59,7 @@ const ImageShowcase = () => {
           <div className="space-y-4 sm:space-y-6">
             {/* Top Image with Easy Badge */}
             <div className="relative">
-              <div className="absolute -top-4 -right-4 z-10">
+              <div className="absolute -top-4 -left-4 z-10">
                 <Badge text="Easy" color="orange" />
               </div>
               <ImageContainer 
@@ -104,9 +104,6 @@ const ImageShowcase = () => {
 
         {/* Additional Decorative Elements */}
         <div className="absolute -left-12 top-1/2 transform -translate-y-1/2 hidden lg:block">
-          <DotPattern />
-        </div>
-        <div className="absolute -right-12 bottom-24 hidden lg:block">
           <DotPattern />
         </div>
       </div>
