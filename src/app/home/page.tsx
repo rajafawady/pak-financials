@@ -8,22 +8,22 @@ import FeatureSection from '@/components/FeatureSection';
 import ImageShowcase from '@/components/ImageShowcase';
 import WhyChooseSection from '@/components/WhyChooseSection';
 import FinancialFuture from '@/components/FinancialFuture';
-const reviews = [
-    {
-      id: 1,
-      name: "Emily Smith",
-      image: "/fawad.jpg", // Replace with actual image path
-      rating: 5,
-      reviewKey: "reviews.emily",
-    },
-    {
-      id: 2,
-      name: "Michael Johnson",
-      image: "/fawad.jpg", // Replace with actual image path
-      rating: 5,
-      reviewKey: "reviews.michael",
-    },
-  ];
+// const reviews = [
+//     {
+//       id: 1,
+//       name: "Emily Smith",
+//       image: "/fawad.jpg", // Replace with actual image path
+//       rating: 5,
+//       reviewKey: "reviews.emily",
+//     },
+//     {
+//       id: 2,
+//       name: "Michael Johnson",
+//       image: "/fawad.jpg", // Replace with actual image path
+//       rating: 5,
+//       reviewKey: "reviews.michael",
+//     },
+//   ];
 
 
 export default function Home() {
