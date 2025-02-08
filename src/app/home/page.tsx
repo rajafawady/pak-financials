@@ -4,9 +4,9 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
-import PromoSection from "@/components/PromoSection";
 import FeatureSection from '@/components/FeatureSection';
 import ImageShowcase from '@/components/ImageShowcase';
+import WhyChooseSection from '@/components/WhyChooseSection';
 const reviews = [
     {
       id: 1,
@@ -86,14 +86,18 @@ export default function Home() {
       </div>
     </section>
 
-    <section>
-      <ImageShowcase />
-    </section>
+        <section>
+          <ImageShowcase />
+        </section>
 
-    <section>
-      <FeatureSection />
-    </section>
+        <section>
+          <FeatureSection />
+        </section>
+        <section>
+          <WhyChooseSection />
+        </section>
 
+      
 
 
     </div>

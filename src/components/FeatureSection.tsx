@@ -1,5 +1,4 @@
 import { Search, Globe, GraduationCap, LoaderPinwheel } from 'lucide-react';
-import Image from 'next/image';
 import { FC } from 'react';
 
 interface FeatureCardProps {

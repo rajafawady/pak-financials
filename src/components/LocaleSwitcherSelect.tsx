@@ -1,6 +1,6 @@
 'use client';
 
-import { Check, Languages, Globe } from "lucide-react";
+import { Check, Globe } from "lucide-react";
 import { useTransition } from 'react';
 import { Locale } from '@/i18n/config';
 import { setUserLocale } from '@/services/locale';

@@ -6,14 +6,12 @@ import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl'; 
 import LocaleSwitcher from './LocaleSwitcher';
 import { Menu } from 'lucide-react';
-import { useRouter } from 'next/navigation';
 
 export function Navbar() {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen(!isOpen);
   const t = useTranslations("AppLayout");
-  const router = useRouter();
 
   return (
     <nav className="bg-white shadow-md">

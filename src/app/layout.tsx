@@ -3,8 +3,6 @@ import "./globals.css";
 import {Navbar} from "@/components/Navbar";
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
-import { locales } from '@/i18n/config';
-import { notFound } from 'next/navigation';
 
 type Props = {
   children: ReactNode;
