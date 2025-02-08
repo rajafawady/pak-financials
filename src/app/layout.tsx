@@ -3,7 +3,7 @@ import "./globals.css";
 import {Navbar} from "@/components/Navbar";
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
-
+import  Footer from '@/components/Footer';
 type Props = {
   children: ReactNode;
 };
@@ -16,6 +16,7 @@ const ClientLayout = ({ children, messages }: { children: ReactNode; messages: a
         <Navbar />
         {/* Page Content */}
         <main className="flex-1 container mx-auto">{children}</main>
+        <Footer />
     </NextIntlClientProvider>
   );
 };

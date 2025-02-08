@@ -7,6 +7,7 @@ import { useTranslations } from 'next-intl';
 import FeatureSection from '@/components/FeatureSection';
 import ImageShowcase from '@/components/ImageShowcase';
 import WhyChooseSection from '@/components/WhyChooseSection';
+import FinancialFuture from '@/components/FinancialFuture';
 const reviews = [
     {
       id: 1,
@@ -97,7 +98,9 @@ export default function Home() {
           <WhyChooseSection />
         </section>
 
-      
+        <section>
+          <FinancialFuture />
+        </section>
 
 
     </div>
