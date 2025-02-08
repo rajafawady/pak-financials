@@ -14,8 +14,8 @@ export default function LocaleSwitcher() {
           label: t('en')
         },
         {
-          value: 'nl',
-          label: t('nl')
+          value: 'ur',
+          label: t('ur')
         }
       ]}
       label={t('label')}

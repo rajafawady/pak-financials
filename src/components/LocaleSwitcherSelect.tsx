@@ -1,6 +1,6 @@
 'use client';
 
-import { Check, Languages } from "lucide-react";
+import { Check, Languages, Globe } from "lucide-react";
 import { useTransition } from 'react';
 import { Locale } from '@/i18n/config';
 import { setUserLocale } from '@/services/locale';
@@ -41,7 +41,7 @@ export default function LocaleSwitcherSelect({
           className="w-15 h-15 rounded-sm p-2"
           disabled={isPending}
         >
-          <Languages className="h-6 w-6 text-slate-600 hover:text-slate-900" />
+          <Globe className="h-6 w-6 text-slate-600 hover:text-slate-900" />
           <span className="sr-only">{label}</span>
         </Button>
       </DropdownMenuTrigger>

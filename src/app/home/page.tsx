@@ -4,20 +4,21 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
-
-
+import PromoSection from "@/components/PromoSection";
+import FeatureSection from '@/components/FeatureSection';
+import ImageShowcase from '@/components/ImageShowcase';
 const reviews = [
     {
       id: 1,
       name: "Emily Smith",
-      image: "/emily-smith.jpg", // Replace with actual image path
+      image: "/fawad.jpg", // Replace with actual image path
       rating: 5,
       reviewKey: "reviews.emily",
     },
     {
       id: 2,
       name: "Michael Johnson",
-      image: "/michael-johnson.jpg", // Replace with actual image path
+      image: "/fawad.jpg", // Replace with actual image path
       rating: 5,
       reviewKey: "reviews.michael",
     },
@@ -83,6 +84,14 @@ export default function Home() {
         </div>
         ))}
       </div>
+    </section>
+
+    <section>
+      <ImageShowcase />
+    </section>
+
+    <section>
+      <FeatureSection />
     </section>
 
 

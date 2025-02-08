@@ -6,7 +6,7 @@
     "register": "Register"
   },
   "LocaleSwitcher": {
-    "nl": "Dutch",
+    "ur": "Urdu",
     "en": "English",
     "label": "Language"
   },
@@ -18,6 +18,10 @@
       "subtitle": "Gain essential insights into financial literacy and harness the power of microfinance applications like Easypaisa and Jazzcash in Pakistan to secure your financial future.",
       "ctaStart": "Start Your Journey",
       "ctaExplore": "Explore More"
+    },
+    "reviews": {
+      "emily": "Pakfinancials made managing my finances straightforward and accessible, enabling my family to utilize financial apps easily.",
+      "michael": "Our sessions on financial literacy have empowered our teachers by enabling them to better manage their finances with practical tools."
     }
   }
   
