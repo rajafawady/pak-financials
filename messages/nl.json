@@ -1,0 +1,243 @@
+{
+  "AppLayout": {
+  "home": "Thuis",
+  "logout": "Uitloggen",
+  "login": "Inloggen",
+  "register": "Registreren"
+},
+
+"homepage": {
+    "title": "Thuis",
+    "welcomeMessage": "Welkom op Pointrush!",
+    "subheading": "We bieden de beste route-technieken voor jouw activiteiten.",
+    "ctaButton": "Begin nu",
+    "aboutToolTitle": "Over de tool",
+    "aboutToolContent": "In deze digitale tijd zijn we steeds op zoek naar nieuwe uitdagende route technieken. Deze tool kan je op meerdere manieren inzetten als online route of spel techniek. Alle varianten gaan er echter wel vanuit dat je zelf bepaalt hoe je op de bewuste locaties komt, de tool geeft alleen aan waar je moet zijn.",
+    "waypointsTitle": "Waypoints of Radiussen",
+    "waypointsContent": "Met een backendfunctie kun je aangeven waar deelnemers heen moeten op basis van een breedte- en lengtegraad. Je geeft aan wanneer elk punt op de kaart beschikbaar zal zijn en wanneer het weer verdwijnt. Op deze manier hoeven jouw deelnemers de eind- of tussenlocatie niet meteen te weten. Door de grootte van de radius te veranderen, kun je verschillende spelelementen toepassen. Optioneel kan de timer per radius worden ingesteld, zodat deelnemers kunnen zien hoe lang de radius nog beschikbaar is. Wanneer deelnemers hun locatiegegevens aan de browser op hun apparaat verstrekken, zien ze hun huidige locatie op de kaart. Wanneer de huidige locatie binnen een van de actieve radiussen valt, zal de betreffende radius groen kleuren en kan worden 'geclaimd'. Door opeenvolgende waypoints in te stellen, kan een route worden gecreëerd.",
+    "mapsTitle": "Kaarten",
+    "mapsContent": "Voor deze tool gebruiken we zogenaamde OpenStreetMap-kaarten. Dit zijn rechtenvrije kaarten zonder de 'Google Maps-faciliteiten', hiermee dwingen we de gebruikers om zelf te navigeren en de kaart te lezen in plaats van blind een pijl te volgen.",
+    "applicationsTitle": "Mogelijke Toepassingen",
+    "applicationsIntro": "Hieronder worden een aantal varianten uitgelegd. Heb je zelf een andere spelvariant? We horen het graag.",
+    "claimTitle": "'Claim de waypoints'",
+    "claimContent": "Waypoints komen zichtbaar op de kaart. Wanneer spelers binnen de radius van het waypoint zijn, verschijnt er een 'claim'-knop. De spelleider kan bepalen wat er moet gebeuren voordat een claim kan plaatsvinden. (Denk aan: een tekst/afbeelding/video tonen, een goed antwoord geven, een foto insturen.) Vervolgens worden de claims in de backend (en eventueel aan de spelers) getoond.",
+    "followTitle": "'Volg de waypoints'",
+    "followContent": "Waypoints komen één voor één zichtbaar op de kaart. Hiermee leid je de deelnemers naar een locatie zonder de eindlocatie of route vroegtijdig bekend te maken. Je kunt dit bijvoorbeeld gebruiken om teams of koppels een omtrekkende route te laten maken.",
+    "circleTitle": "'Kom in de cirkel'",
+    "circleContent": "Er staat 1 radius op de kaart en de timer loopt. Welke deelnemers zijn op tijd 'binnen'? (Eenvoudig te bewijzen door een screenshot met een groene cirkel naar de organisator te sturen).",
+    "greenTitle": "'Houd het groen'",
+    "greenContent": "We beginnen met een grote radius. De deelnemers krijgen de opdracht om elke 'x' minuten een screenshot van een groene radius te sturen. Het middelpunt verandert elke keer en de radius wordt telkens kleiner. Wie blijft het langst in de groene cirkel?",
+    "freeZonesTitle": "'Vrije zones'",
+    "freeZonesContent": "In elk 'kat-en-muis'- of 'jager/zoeker'-spel wil je soms vrije zones inbouwen. Stel je radius in en toon deze op de kaart. Iedereen weet – ongeacht paden en wegen – waar de vrije zones zijn. Makkelijk te controleren door alle betrokken spelers.",
+    "useToolTitle": "Gebruik van de Tool",
+    "useToolContent": "Het staat iedereen vrij deze online tool te gebruiken. Registreer je account en creëer je eigen track. We zullen je niet spammen of lastigvallen, maar we willen graag onze gebruikers kunnen waarschuwen indien nodig. Omdat deze tool nog constant in ontwikkeling is, behouden we ons het recht voor om de database volledig te wissen. Wil je de tool gebruiken tijdens een activiteit? Laat het ons gewoon weten en je bent altijd goed! Heb je de tool gebruikt voor een activiteit? Dan horen we dat natuurlijk graag. Stuur foto's en/of ervaringen naar: busger@graafottogroep.nl.",
+    "haveFun" : "Veel speelplezier!",
+    "name" : "Arjan Busger at Vollenbroek",
+    "designation" : "Scouting Graaf Otto Group, Lochem"
+  },
+  "LocaleSwitcher": {
+    "nl": "Dutch",
+    "en": "English",
+    "label": "Language"
+  },
+  "auth": {
+    "register": {
+      "title": "Registreren",
+      "description": "Voer uw gegevens in om een nieuw account te maken.",
+      "nameLabel": "Volledige Naam",
+      "emailLabel": "E-mailadres",
+      "passwordLabel": "Wachtwoord",
+      "confirmPasswordLabel": "Bevestig Wachtwoord",
+      "submitting" : "Indienen...",
+      "submitButton": "Registreren",
+      "alreadyHaveAccount": "Heeft u al een account?",
+      "loginLink": "Log hier in"
+    },
+    "login": {
+      "title": "Inloggen",
+      "description": "Voer je e-mailadres in om in te loggen op je account",
+      "emailLabel": "E-mailadres",
+      "passwordLabel": "Wachtwoord",
+      "submitButton": "Inloggen",
+      "signingIn": "Aanmelden...",
+      "noAccount": "Nog geen account?",
+      "signUpLink": "Registreren",
+      "forgotPassword": "Wachtwoord vergeten?"
+    },
+    "errors": {
+      "errorTitle": "Fout",
+      "emailRequired": "E-mail is vereist",
+      "emailInvalid": "Ongeldig e-mailadres",
+      "invalidCredentials": "Ongeldig e-mailadres of wachtwoord.",
+      "passwordRequired": "Wachtwoord is vereist",
+      "passwordTooShort": "Wachtwoord moet minstens 8 tekens bevatten",
+      "passwordMismatch": "Wachtwoorden komen niet overeen",
+      "nameRequired": "Naam is vereist",
+      "emailExists": "E-mail is al geregistreerd",
+      "usernameRequired": "Gebruikersnaam is vereist",
+      "usernameTaken": "Gebruikersnaam is al in gebruik",
+      "default": "Er is een onbekende fout opgetreden."
+    },
+    "forgotPassword": {
+      "title": "Wachtwoord Vergeten?",
+      "description": "Voer je e-mailadres in om je wachtwoord opnieuw in te stellen.",
+      "emailLabel": "E-mailadres",
+      "submitButton": "Stuur Herstel Link",
+      "sending": "Bezig met verzenden...",
+      "emailSent": "Er is een e-mail voor wachtwoordherstel verzonden!",
+      "userNotFound": "Geen gebruiker gevonden met dit e-mailadres.",
+      "invalidEmail": "Ongeldig e-mailadres.",
+      "default": "Er is een onverwachte fout opgetreden. Probeer het later opnieuw.",
+      "backToLogin": "Terug naar Inloggen"
+    }
+  },
+  "Dashboard": {
+    "tracksTitle": "Tracks",
+    "addTrackButton": "Nieuwe track toevoegen",
+    "loadingTracks": "Tracks laden...",
+    "noTracksFound": "Geen tracks gevonden.",
+    "errorFetchingTracks": "Fout bij het ophalen van tracks:",
+    "confirmDelete": "Weet u zeker dat u deze track wilt verwijderen?",
+    "trackDeletedTitle": "Verwijderd",
+    "trackDeleted": "Track succesvol verwijderd.",
+    "trackDeleteError": "Fout bij het verwijderen van de track.",
+    "trackCopiedTitle": "Gekopieerd",
+    "trackCopied": "Track succesvol gekopieerd.",
+    "trackCopyFailedError": "Fout bij het kopiëren van de track."
+  },
+  "TrackDetails": {
+    "editTitle": "Bewerk Track",
+    "nameLabel": "Tracknaam",
+    "descriptionLabel": "Beschrijving",
+    "mapLabel": "Trackkaart",
+    "editButton": "Bewerken",
+    "deleteButton": "Verwijderen",
+    "cancelButton": "Annuleren",
+    "saveButton": "Wijzigingen opslaan",
+    "saving": "Opslaan...",
+    "loading": "Laden...",
+    "notFound": "Track niet gevonden",
+    "confirmDelete": "Weet u zeker dat u deze track wilt verwijderen?",
+    "currentLogic": "Huidige logica",
+    "errors": {
+      "loadFailed": "Laden van de track mislukt.",
+      "updateFailed": "Bijwerken van de track mislukt.",
+      "deleteFailed": "Verwijderen van de track mislukt."
+    },
+    "toast": {
+      "successTitle": "Succes!",
+      "successDescription": "Track succesvol bijgewerkt.",
+      "deleteSuccessTitle": "Verwijderd!",
+      "deleteSuccessDescription": "Track succesvol verwijderd.",
+      "copySuccessTitle": "Gekopieerd!",
+      "copySuccessDescription": "Track succesvol gekopieerd."
+    }
+  },
+  "AddTrackForm": {
+    "fields": {
+      "name": {
+        "label": "Naam van het spoor",
+        "placeholder": "Voer de naam van het spoor in"
+      },
+      "description": {
+        "label": "Beschrijving",
+        "placeholder": "Voer een beschrijving in"
+      }
+    },
+    "buttons": {
+      "cancel": "Annuleren",
+      "add": "Spoor toevoegen",
+      "adding": "Spoor wordt toegevoegd..."
+    },
+    "toast": {
+      "success": {
+        "title": "Succes!",
+        "description": "Spoor succesvol toegevoegd"
+      }
+    },
+    "errors": {
+      "mustBeLoggedIn": "U moet ingelogd zijn om een spoor toe te voegen",
+      "unexpected": "Er is een onverwachte fout opgetreden"
+    }
+  },
+  "TrackMap": {
+  "locate": "Zoeken",
+  "locationError": "Je locatie kan niet worden opgehaald",
+  "unsupportedGeolocation": "Geolocatie wordt niet ondersteund door je browser",
+  "addWaypoint": "Waypoint toevoegen",
+  "waypoints": "Waypoints",
+  "radiusPlaceholder": "Straal (m)",
+  "delete": "Verwijderen"
+},
+"Contact": {
+  "contactTitle": "Contacteer Ons",
+  "contactSubheading": "Pointrush.nl blijft zich ontwikkelen. We zijn benieuwd naar je feedback en/of ideeën. Hier kun je je vraag, opmerking of suggestie voor Pointrush.nl achterlaten.",
+  "formTitle": "Stuur ons een bericht",
+  "nameLabel": "Je Naam",
+  "namePlaceholder": "Voer je volledige naam in",
+  "emailLabel": "E-mailadres",
+  "emailPlaceholder": "Voer je e-mailadres in",
+  "subjectLabel": "Onderwerp",
+  "subjectPlaceholder": "Waar gaat je bericht over?",
+  "messageLabel": "Bericht",
+  "messagePlaceholder": "Voer hier je bericht in...",
+  "submit": "Bericht Versturen",
+  "submitting": "Bezig met verzenden...",
+  "successTitle": "Bericht Verzonden",
+  "successMessage": "Bedankt voor je bericht. We nemen snel contact met je op.",
+  "errorTitle": "Fout",
+  "errorMessage": "Het verzenden van het bericht is mislukt. Probeer het opnieuw.",
+  "additionalContactTitle": "Andere Manieren om Ons te Bereiken",
+  "officeAddress": "123 Bedrijfsstraat, Suite 100, Stad, Land",
+  "phoneNumber": "Telefoon: +1 (555) 123-4567",
+  "emailAddress": "E-mail: contact@yourcompany.com"
+},
+"PublicMap":{
+  "title": "Pointrush",
+  "section": {
+    "intro": {
+      "title": "In deze digitale tijd",
+      "content": "We zijn altijd op zoek naar nieuwe uitdagende route technieken. Deze tool kan je op verschillende manieren gebruiken als online route of spel techniek. Alle varianten gaan ervan uit dat jij bepaalt hoe je op de bedoelde locaties komt, de tool geeft alleen aan waar je moet zijn."
+    },
+    "waypoints": {
+      "title": "Waypoints of Radiussen",
+      "content": "Met een backendfunctie kun je - op basis van lengte- en breedtegraad - aangeven waar de deelnemers naartoe moeten. Je geeft van elk punt aan wanneer het op de kaart beschikbaar komt en wanneer het weer zal verdwijnen. Zo hoeft de eind- of tussenlocatie niet meteen bekend te zijn bij je deelnemers."
+    },
+    "maps": {
+      "title": "Kaarten",
+      "content": "Voor deze tool maken we gebruik van OpenStreetMap-kaarten, dit zijn rechtenvrije kaarten zonder de ‘Google Maps-faciliteiten’. Dit dwingt de gebruikers zelf te navigeren en de kaart te lezen, en dus niet klakkeloos achter een pijltje aan te lopen."
+    },
+    "variants": {
+      "title": "Mogelijke Toepassingen",
+      "followWaypoints": {
+        "title": "Volg de waypoints",
+        "content": "Waypoints komen na elkaar zichtbaar op de kaart, waarmee je de deelnemers naar een locatie leidt zonder de eindlocatie of route vroegtijdig bekend te maken. Je kunt hiermee bijvoorbeeld een omtrekkende route voor teams of koppels creëren."
+      },
+      "enterCircle": {
+        "title": "Kom in de cirkel",
+        "content": "Er staat één radius op de kaart en de timer loopt. Welke deelnemers zijn op tijd ‘binnen’? (Eenvoudig te controleren door deelnemers de radius te laten claimen.)"
+      },
+      "keepGreen": {
+        "title": "Houd het groen",
+        "content": "We beginnen met een grote radius. De deelnemers krijgen de opdracht om elke ‘x’ minuten een claim te maken. Het middelpunt verandert elke keer en de radius wordt kleiner. Wie blijft het langst in de groene cirkel?"
+      },
+      "freeZones": {
+        "title": "Vrije zones",
+        "content": "In een willekeurig ‘kat en muis’ of ‘hunter/seeker’ spel wil je soms vrije zones inbouwen. Stel je radius in en toon ze op de kaart. Iedereen weet - ongeacht paden en wegen - waar de vrije zones zijn. Makkelijk te controleren door alle betrokken spelers."
+      }
+    },
+    "usage": {
+      "title": "Gebruik van de tool",
+      "content": "Het staat iedereen vrij deze online tool te gebruiken. Registreer je account en maak je eigen track. We zullen je niet spammen of lastigvallen, maar we willen graag onze gebruikers informeren waar nodig."
+    },
+    "contact": {
+      "title": "Contact",
+      "content": "Heb je de tool gebruikt voor een activiteit, dan horen we dat natuurlijk graag. Foto's en/of ervaringen mogen naar: busger@graafottogroep.nl. Veel speelplezier!"
+    }
+  }
+}
+
+
+
+  
+}

@@ -1,0 +1,24 @@
+{
+  "AppLayout": {
+    "home": "Home",
+    "logout": "Logout",
+    "login": "Login" ,
+    "register": "Register"
+  },
+  "LocaleSwitcher": {
+    "nl": "Dutch",
+    "en": "English",
+    "label": "Language"
+  },
+  "HomePage":{
+    "hero":{
+      "title": "Navigate Your Financial Journey With",
+      "highlight": "Confidence",
+      "titleEnd": "Empower Your Future",
+      "subtitle": "Gain essential insights into financial literacy and harness the power of microfinance applications like Easypaisa and Jazzcash in Pakistan to secure your financial future.",
+      "ctaStart": "Start Your Journey",
+      "ctaExplore": "Explore More"
+    }
+  }
+  
+}
