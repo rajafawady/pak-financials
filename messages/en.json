@@ -1,9 +1,194 @@
 {
   "AppLayout": {
+        "title": "Pak Financials",
     "home": "Home",
     "logout": "Logout",
     "login": "Login" ,
-    "register": "Register"
+    "register": "Register",
+    "stockMarket": "Stock Market Guide",
+    "halalInvestments": "Halal Investment",
+    "tutorials": "Tutorials",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "copyright": "© 2025 Pak Financials. All rights reserved.",
+    "socialMedia": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram"
+    },    "direction": "ltr"  },
+
+    "ImageShowcase":{
+      "easy": "Easy",
+      "empower": "Empower"
+    },
+
+
+  "WhyChooseSection": {
+    "title": "Why Choose",
+    "titleHighlight": "Pakfinancials?",
+    "description": "Enhance your financial understanding with Pakfinancials, where education meets empowerment. Our platform equips you with essential knowledge about financial literacy, particularly focusing on practical applications of microfinance tools like Easypaisa and Jazzcash in Pakistan. Dive into curated resources that offer actionable insights into effectively managing your finances, catering to diverse backgrounds and expertise.",
+    "stats": {
+      "educators": {
+        "number": "2,500",
+        "title": "Educators",
+        "subtitle": "Enhancing Financial Literacy"
+      },
+      "apps": {
+        "number": "200+",
+        "title": "Microfinance Apps",
+        "subtitle": "Utilized"
+      }
+    }
+  },
+  "FeatureSection": {
+    "header": {
+      "title": "Financial Future with Pakfinancials",
+      "description": "Gain essential insights into financial literacy with our platform, empowering you to confidently navigate your financial journey. Discover how microfinance apps like Easypaisa and Jazzcash can facilitate better financial management in Pakistan."
+    },
+    "features": [
+      {
+        "title": "Absences can hinder financial progress",
+        "titleHighlight": "hinder",
+        "description": "Pakfinancials provides timely resources that minimize disruptions in your financial education journey."
+      },
+      {
+        "title": "Streamlined process to integrate microfinance solutions",
+        "titleHighlight": "integrate",
+        "description": "Our platform helps you effectively connect with the necessary financial tools and services."
+      },
+      {
+        "title": "Continuous support keeps your education thriving in finance",
+        "titleHighlight": "your education thriving",
+        "description": "Pakfinancials is dedicated to helping you maintain financial confidence and stability."
+      }
+    ]
+  },
+  "FinancialFuture": {
+    "header": {
+      "titlePart1": "Unlock Your",
+      "titleHighlight": "Financial Future",
+      "titlePart2": "with Pakfinancials",
+      "description": "Enhance your understanding of financial literacy with dedicated resources from Pakfinancials."
+    },
+    "features": [
+      {
+        "title": "Transformational Stories: From Cash to Digital",
+        "description": "Discover how to use microfinance applications like Easypaisa and Jazzcash to simplify your transactions and manage your finances effectively."
+      },
+      {
+        "title": "Your Essential Guide to Microfinance Apps",
+        "description": "Gain insight into how to effectively leverage platforms like Easypaisa and Jazzcash for everyday transactions."
+      },
+      {
+        "title": "Engaging Financial Literacy Strategies for All Ages",
+        "description": "Learn interactive techniques designed to simplify complex financial concepts accessible for everyone, including multimedia resources in regional languages."
+      }
+    ]
+  },
+  "AboutUsPage": {
+    "pageTitle": "About Us",
+    "heroTitle": "Our Mission & Vision",
+    "heroSubtitle": "Empowering Pakistan's financial future through education and technology",
+    "ourStoryTitle": "Our Story",
+    "ourStoryContent": "Pak Financials was founded in 2025 with a simple mission: to bridge the gap between everyday Pakistanis and financial literacy. We recognized that many individuals lack access to proper financial education, especially regarding digital financial tools that are becoming increasingly important in today's economy.",
+    "ourVisionTitle": "Our Vision",
+    "ourVisionContent": "We envision a Pakistan where every citizen has the knowledge and tools to make informed financial decisions. Through education, accessibility, and community support, we aim to create a financially empowered population that can contribute to national economic growth.",
+    "ourTeamTitle": "Meet Our Team",
+    "teamMembers": {
+      "teamMembersCount": "4",
+      "member1": {
+        "name": "Uzair bin nisar",
+        "position": "Founder & CEO",
+        "bio": "Having traveled avidly across Pakistan and witnessing the disparity and identifying its factors, decided to put together a team to bring about change.",
+        "image" : "/uzair.jpg"
+      },
+      "member2": {
+        "name": "Ali hassan malik",
+        "position": "Director of Financial Education",
+        "bio": "Ali has dedicated his career to making financial education accessible to all demographics, especially underserved communities.",
+        "image" : "/ali.jpg"
+      },
+      "member3": {
+        "name": "Rania tahir",
+        "position": "Technology Lead",
+        "bio": "Rania combines her technical skills with financial knowledge to create user-friendly digital solutions for financial literacy.",
+        "image": ""
+      },
+      "member4": {
+        "name": "Hadia usmani",
+        "position": "Community Outreach Manager",
+        "bio": "Hadia specializes in developing programs that connect financial education with real-world applications for Pakistani communities.",
+        "image":""
+      }
+    },
+    "valuesTitle": "Our Core Values",
+    "values": {
+      "value1": {
+        "title": "Accessibility",
+        "description": "We believe financial knowledge should be accessible to everyone, regardless of educational background or economic status."
+      },
+      "value2": {
+        "title": "Integrity",
+        "description": "We provide unbiased information and prioritize the financial wellbeing of our community above all else."
+      },
+      "value3": {
+        "title": "Innovation",
+        "description": "We continuously adapt to the evolving financial landscape to provide the most relevant and effective educational resources."
+      },
+      "value4": {
+        "title": "Community",
+        "description": "We foster a supportive community where individuals can learn, share experiences, and grow together financially."
+      }
+    }
+  },
+  "ContactUsPage": {
+    "pageTitle": "Contact Us",
+    "heroTitle": "Get in Touch",
+    "heroSubtitle": "We're here to help with any questions about financial literacy or our services",
+    "contactInfo": {
+      "title": "Contact Information",
+      "email": "Email",
+      "emailValue": "uzairnisar02@gmail.com",
+      "phone": "Phone",
+      "phoneValue": "+92 331 5485836",
+      "address": "Address",
+      "addressValue": "Nust Business Scool, Lumber 1, Islamabad, Pakistan"
+    },
+    "formSection": {
+      "title": "Send us a Message",
+      "nameLabel": "Your Name",
+      "namePlaceholder": "Enter your full name",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "What is your message about?",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us how we can help you...",
+      "submitButton": "Send Message",
+      "successMessage": "Thank you! Your message has been sent. We'll get back to you soon.",
+      "errorMessage": "Oops! Something went wrong. Please try again later."
+    },
+    "faqTitle": "Frequently Asked Questions",
+    "faqs": {
+      "faq1": {
+        "question": "How can I start learning about financial literacy?",
+        "answer": "You can start by exploring our tutorials section, which covers the basics of financial literacy, digital payment systems, and investing."
+      },
+      "faq2": {
+        "question": "Do you offer in-person workshops?",
+        "answer": "Yes, we conduct regular workshops in major cities across Pakistan. Check our events calendar for upcoming sessions near you."
+      },
+      "faq3": {
+        "question": "Are your resources available in languages other than English?",
+        "answer": "Yes, most of our resources are available in both English and Urdu to serve a wider audience in Pakistan."
+      },
+      "faq4": {
+        "question": "How can I contribute to Pak Financials?",
+        "answer": "We welcome contributors who share our mission. You can contribute by writing articles, creating educational content, or volunteering at our workshops."
+      }
+    }
   },
   "LocaleSwitcher": {
     "ur": "Urdu",
@@ -23,6 +208,527 @@
       "emily": "Pakfinancials made managing my finances straightforward and accessible, enabling my family to utilize financial apps easily.",
       "michael": "Our sessions on financial literacy have empowered our teachers by enabling them to better manage their finances with practical tools."
     }
+  },
+  "FinancialLiteracy": {
+    "stockMarketInvestment": {
+      "title": "Stock Market and Investment",
+      "introduction": {
+        "heading": "Introduction: Investing in the Stock Market",
+        "points": {
+          "point1": "Investing in the stock market involves buying shares of companies to grow your money.",
+          "point2": "You can start investing by opening an account through a broker.",
+          "point3": "Investment requires time, research, and the right strategy."
+        }
+      },
+      "whatAreShares": {
+        "heading": "What are Shares?",
+        "description": "Shares represent a portion of ownership in a company. When you buy shares of a company, you become a shareholder and may receive a portion of its profits. Companies have two main ways to raise capital:",
+        "points": {
+          "point1": "Loans – borrowing from banks or financial institutions.",
+          "point2": "Equity financing – raising capital by selling shares to the public."
+        }
+      },
+      "whatIsStockMarket": {
+        "heading": "What is the Stock Market?",
+        "description": "The stock market is a place where companies sell their shares, and investors buy and sell them. Companies offer their shares to the public through an IPO (Initial Public Offering). Afterward, these shares are available for general trading in the stock market."
+      },
+      "investmentBenefitsRisks": {
+        "heading": "Benefits and Risks of Investment",
+        "benefits": {
+          "heading": "Benefits",
+          "points": {
+            "point1": "Dividends: Some companies pay dividends to shareholders from their profits, providing an additional source of income.",
+            "point2": "Capital gains: If the price of a company's shares increases, investors can sell them for a profit.",
+            "point3": "Long-term financial stability: Investing in good companies can be profitable in the long run."
+          }
+        },
+        "risks": {
+          "heading": "Risks",
+          "points": {
+            "point1": "Market volatility: Share prices fluctuate according to market conditions.",
+            "point2": "Poor investment choices: Investing in unstable companies can lead to losses."
+          }
+        }
+      },
+      "islamicInvestment": {
+        "heading": "Islamic Investment",
+        "description": "Some investors prefer to invest according to Islamic principles, which avoid the following:",
+        "compliance" : "Compliance",
+        "shariah" : "Shariah", 
+        "avoid": {
+          "point1": "Non-Islamic banking and insurance shares",
+          "point2": "Tobacco, alcohol, and interest-based businesses",
+          "point3": "Non-Shariah compliant financial institutions"
+        },
+        "alternatives": {
+          "heading": "Islamic Banking Alternatives:",
+          "point1": "Meezan Bank and other Islamic banking options operate according to Shariah principles and offer Islamic investment facilities."
+        }
+      },
+      "longTermInvestmentStrategy": {
+        "heading": "Long-Term Investment Strategy",
+        "goodCompanies": {
+          "heading": "What are Good Companies?",
+          "companies": {
+            "company1": "(HUB Power Company) – A stable and prominent company in the power sector",
+            "company2": "(Engro) – A key company in the fertilizer and agriculture sector",
+            "company3": "Other stable companies – Those that regularly provide annual profits and dividends."
+          }
+        },
+        "avoidRiskyInvestments": {
+          "heading": "Avoiding Risky Investments",
+          "points": {
+            "point1": "Do not buy shares with unusual price fluctuations.",
+            "point2": "Avoid speculative buying and selling.",
+            "point3": "Invest in good companies for the long term."
+          }
+        }
+      },
+      "howToInvestInPakistan": {
+        "heading": "How to Invest in the Stock Market in Pakistan?",
+        "brokerInvestment": {
+          "heading": "Investing Through a Broker",
+          "points": {
+            "point1": "To invest directly in the stock market, you must open an account through a stock broker.",
+            "point2": "A broker acts as an intermediary who buys and sells shares on your behalf."
+          }
+        },
+        "mutualFunds": {
+          "heading": "Mutual Funds and Other Alternative Sources",
+          "description": "If you are not interested in direct investment, you can invest in mutual funds. Fixed deposits in banks and other investment options are also available."
+        }
+      },
+      "conclusion": {
+        "heading": "Conclusion",
+        "points": {
+          "point1": "Investing in the stock market can be profitable, but it also carries risks.",
+          "point2": "Investing in good companies for the long term can be beneficial.",
+          "point3": "Good opportunities can also be found by following Islamic investment principles.",
+          "point4": "It is important to research before investing and avoid speculation."
+        }
+      },
+      "brokerAndCDCAccount": {
+        "heading": "Opening a Broker and CDC Account",
+        "points": {
+          "point1": "You need to open an account through a broker to invest.",
+          "point2": "The broker will open two accounts for you:",
+          "point3": "Trading account (used for buying and selling)",
+          "point4": "CDC account – where your shares are kept safe.",
+          "point5": "CDC has made it easy to keep shares electronically (Central Depository Company)."
+        },
+        "knownBrokers": {
+          "heading": "Famous Brokers:",
+          "brokers": {
+            "broker1": "ADI Securities",
+            "broker2": "Arif Habib Securities",
+            "broker3": "Meezan Securities",
+            "broker4": "JS Global"
+          }
+        }
+      },
+      "investmentProcess": {
+        "heading": "Investment Process",
+        "fundTransfer": {
+          "heading": "Transferring Funds",
+          "points": {
+            "point1": "After opening the account, you transfer money from your bank account to the broker's account.",
+            "point2": "For example, if you transfer 100,000 rupees, it will appear in your broker app."
+          }
+        },
+        "buyingShares": {
+          "heading": "Buying Shares",
+          "points": {
+            "point1": "You can buy shares of any company through the broker's app or website.",
+            "point2": "If you want to buy shares of MCB or HBL, you can check their price and availability in the app.",
+            "point3": "You need to decide whether your investment is for the long term or short term.",
+            "point4": "Long-term investors should monitor the company's financial performance and dividend distribution."
+          }
+        },
+        "orderConfirmation": {
+          "heading": "Order Confirmation and Notification",
+          "points": {
+            "point1": "When you buy a share, you receive an SMS notification in your account.",
+            "point2": "The shares you bought are kept safe in your CDC account."
+          }
+        }
+      },
+      "investmentStrategy": {
+        "heading": "Investment Strategy",
+        "budgetSavingsPlan": {
+          "heading": "Budget and Savings Plan",
+          "points": {
+            "point1": "According to Warren Buffett's principle:",
+            "point2": "First set aside money for investment from your income, then spend the rest.",
+            "point3": "Try to invest 20% of your monthly income.",
+            "point4": "Use a systematic investment plan, where you invest a small amount every month."
+          }
+        }
+      },
+      "longTermInvestments": {
+        "heading": "Long-Term Investment",
+        "points": {
+          "point1": "Long-term investment requires you to buy shares of a good company.",
+          "point2": "This investment can last for several years.",
+          "point3": "Long-term investors in the stock market get higher returns.",
+          "point4": "You should not be affected by market fluctuations.",
+          "point5": "The price of good companies' shares increases over time.",
+          "point6": "Long-term investors focus on company performance and dividends, not daily share prices."
+        }
+      },
+      "buyingSharesOfGoodCompanies": {
+        "heading": "Buying Shares of Good Companies",
+        "points": {
+          "point1": "Buying shares of good companies gives you long-term profits.",
+          "point2": "Companies that regularly pay dividends are better for investors.",
+          "point3": "Examples of good companies",
+          "goodCompanies": {
+            "company1": "(HBL) Habib Bank Limited",
+            "company2": "(MCB) Muslim Commercial Bank",
+            "company3": "(UBL) United Bank Limited",
+            "company4": "(Pak Suzuki) Pak Suzuki",
+            "company5": "(Engro Corporation) Engro Corporation",
+            "company6": "(PICT) Pakistan International Container Terminal"
+          }
+        }
+      },
+      "commonQuestions": {
+        "heading": "Common Questions about the Stock Market",
+        "questions": {
+          "question1": {
+            "question": "What is the minimum investment in the stock market?",
+            "answer": "You can start investing with as little as 5,000 rupees. Example: If a company's share price is 50 rupees, you will need 25,000 rupees to buy 500 shares."
+          },
+          "question2": {
+            "question": "Can students invest in the stock market?",
+            "answer": "Yes, students can also invest in the stock market, but they must open an account with their own CNIC."
+          },
+          "question3": {
+            "question": "Broker commission and taxes",
+            "answer": "Brokers charge a small commission on buying and selling. Capital Gains Tax (CGT) and Dividend Tax also apply."
+          },
+          "question4": {
+            "question": "Is investing in mutual funds better?",
+            "answer": "If you cannot monitor the stock market yourself, mutual funds are a good option. A fund manager manages your investment, and you can get good returns in the long term."
+          }
+        }
+      },
+      "fraudAwareness": {
+        "heading": "Fraud Awareness in the Stock Market",
+        "points": {
+          "point1": "Always invest with registered and reputable brokers.",
+          "point2": "Stay away from any unverified scheme or broker promising unusual profits.",
+          "point3": "Never share your account details and password with anyone.",
+          "point4": "Verify information from official websites and sources."
+        }
+      },
+      "investmentProsCons": {
+        "heading": "Pros and Cons of Investing in the Stock Market",
+        "pros": {
+          "heading": "Pros",
+          "points": {
+            "point1": "Potential for high returns",
+            "point2": "Dividend income (companies distribute profits from time to time)",
+            "point3": "Capital appreciation (your shares can increase in value over time)"
+          }
+        },
+        "cons": {
+          "heading": "Cons",
+          "points": {
+            "point1": "Market volatility (share prices can decrease)",
+            "point2": "Investing in the wrong companies can lead to losses",
+            "point3": "If a company goes bankrupt, your investment can be lost"
+          }
+        }
+      },
+      "successPrinciples": {
+        "heading": "Principles for Success in the Stock Market",
+        "points": {
+          "point1": "Do research before investing",
+          "point2": "Invest according to your budget",
+          "point3": "Adopt a long-term strategy",
+          "point4": "Invest in strong companies",
+          "point5": "Keep investing small amounts every month"
+        }
+      },
+      "resources": {
+        "heading": "Further Information and Resources",
+        "links": {
+          "link1": {
+            "title": "Pakistan Stock Exchange (PSX)",
+            "url": "https://www.psx.com.pk/"
+          },
+          "link2": {
+            "title": "Securities and Exchange Commission of Pakistan (SECP)",
+            "url": "https://www.secp.gov.pk/"
+          },
+          "link3": {
+            "title": "Meezan Bank Islamic Investment",
+            "url": "https://www.meezanbank.com/"
+          }
+        }
+      }
+    }
+  },
+  "HalalInvestment": {
+    "whatIsHalalInvestment": {
+      "heading": "What is Halal Investment?",
+      "description": "Halal investment refers to investments that comply with Islamic Shariah principles. The aim is to promote legitimate, pure, and ethical investments along with profit."
+    },
+    "basicPrinciples": {
+      "heading": "Basic Principles",
+      "points": {
+        "point1": "Avoidance of interest (Riba)",
+        "point2": "Avoidance of uncertainty (Gharar)",
+        "point3": "Avoidance of gambling (Qimar)",
+        "point4": "Do not invest in prohibited businesses (such as alcohol, pornography, interest-based banking)"
+      }
+    },
+    "halalInvestmentSources": {
+      "heading": "Sources of Halal Investment",
+      "islamicStockMarket": {
+        "heading": "Islamic Stock Market",
+        "points": {
+          "point1": "Shares are bought in companies engaged in halal businesses.",
+          "point2": "The company’s debt and financial structure are also checked for Shariah compliance."
+        }
+      },
+      "islamicMutualFunds": {
+        "heading": "Islamic Mutual Funds",
+        "points": {
+          "point1": "These funds invest collectively in Shariah-compliant companies.",
+          "point2": "Funds are reviewed under the supervision of qualified scholars."
+        }
+      },
+      "sukuk": {
+        "heading": "Sukuk (Islamic Bonds)",
+        "points": {
+          "point1": "These are alternatives to conventional interest-based bonds.",
+          "point2": "They are asset-backed and provide profit according to Shariah principles."
+        }
+      }
+    },
+    "stocksAndBonds": {
+      "heading": "What are Stocks and Bonds?",
+      "stocks": {
+        "heading": "Stocks (Shares)",
+        "points": {
+          "point1": "Buying a small part of a company.",
+          "point2": "Sharing in the company’s profits.",
+          "point3": "Profit if the price increases, loss if it decreases."
+        }
+      },
+      "bonds": {
+        "heading": "Bonds (Debt Instruments)",
+        "points": {
+          "point1": "A way for the government or company to borrow money.",
+          "point2": "Profit is given on the basis of interest (not permissible in Islam)."
+        }
+      },
+      "sukuk": {
+        "heading": "Sukuk (Islamic Alternative)",
+        "points": {
+          "point1": "Based on assets.",
+          "point2": "Profit-sharing instead of interest."
+        }
+      }
+    },
+    "howToStartHalalInvestment": {
+      "heading": "How to Start Halal Investment?",
+      "steps": {
+        "point1": "Consult an Islamic brokerage or financial institution.",
+        "point2": "Invest in stocks or funds filtered for Shariah compliance.",
+        "point3": "Use Islamic investment apps or platforms (e.g., Zoya, Finjaan, or HalalStock)."
+      }
+    },
+    "benefits": {
+      "heading": "Benefits of Halal Investment",
+      "points": {
+        "point1": "Spiritual satisfaction along with financial gain",
+        "point2": "Earning in a halal and pure way",
+        "point3": "Avoiding investment in unethical businesses",
+        "point4": "Hope for blessings in this world and the hereafter"
+      }
+    }
+  },
+
+  "howToOpenStockAccount": {
+
+    "tabs": {
+      "stock": "Stock Trading Account",
+      "jazzcash": "JazzCash Account",
+      "easypaisa": "EasyPaisa Account"
+    },
+    "heading": "Learn How to Open Financial Accounts in Pakistan",
+    "introduction": "A comprehensive guide to opening and managing different types of financial accounts in Pakistan's market.",
+
+    "stockMarket": {
+      "heading": "How to Open a Stock Exchange Account?",
+    "introduction": "In Pakistan, when you want to open an account in the stock exchange, you do not go directly to the stock exchange. The stock exchange has licensed brokers, and you open your account through these brokers. To buy and sell stocks, you need to open an account with these brokers and deposit funds."
+    },
+    
+    "history": "In the past, people used to buy and sell physical shares in the stock exchange, but investors suffered losses because many brokers failed to make payments.",
+    "institutions": {
+      "heading": "Central Depository Company and National Clearing Company of Pakistan",
+      "description": "Over time, many things have improved. Now we have the Central Depository Company, which safeguards shares, and the National Clearing Company of Pakistan, which ensures all transactions are completed on time. These two institutions ensure the safety of your investment and the legal status of your trading account.",
+      "institution1":{
+        "name": "Central Depository Company (CDC)",
+        "description": "Safeguards your shares in electronic form and ensures their security."
+      },
+      "institution2":{
+        "name": "National Clearing Company of Pakistan (NCCPL)",
+        "description": "Ensures that all transactions are completed on time and provides a legal framework for trading."
+      }
+    },
+    "accountTypes": {
+      "heading": "Types of Accounts",
+      "description": "If you want to invest in publicly listed companies, their shares can be bought or sold through the stock market. The first step is to open an account with a broker. This account is called a sub-account, while the main account is with the Central Depository Company, also known as the investor account.",
+      "subAccount": {
+        "heading": "Sub-Account",
+        "description": "This is the account you open with a broker to buy and sell shares. It is linked to your main account with the Central Depository Company."
+      },
+      "investorAccount": {
+        "heading": "Investor Account",
+        "description": "This is the main account with the Central Depository Company where your shares are held securely."
+      }
+    },
+    "onlineBrokerage": {
+      "heading": "New Initiative by Central Depository Company",
+      "description": "They have introduced online brokerage, where all custody is with the Central Depository Company, and you have a terminal through which you can buy and sell.",
+      "title": "Online Brokerage System",
+      "directCustody": "Direct Custody",
+      "onlineTradingTerminal": "Online Trading Terminal",
+      "enhancedSecurity": "Enhanced Security"
+    },
+    "licensedBroker": {
+      "heading": "Licensed Broker",
+      "description": "Pakistan Stock Exchange has licensed Syed Faraz Equities Private Limited, which we will use to open our trading account.",
+      "companyName": "Syed Faraz Equities Private Limited",
+      "licensedByPakistanStockExchange": "Licensed by Pakistan Stock Exchange"
+    },
+    "steps": {
+      "heading": "Steps to Open a Trading Account",
+      "step1": {
+        "heading": "Step 1",
+        "description": "Fill in the basic information and submit to NCCPL for OTP:",
+        "fieldsTitle": "Required Information",
+        "processTitle": "Verification Process",
+        "fields": [
+          "Account holder’s name",
+          "Email address",
+          "Residential address",
+          "CNIC number",
+          "Issue date",
+          "Registered mobile number",
+          "IBAN number"
+        ],
+        "process": [
+          "When the client submits the form, the broker will generate an OTP.",
+          "The OTP received by the client will be verified through the broker."
+        ]
+      },
+      "step2": {
+        "heading": "Step 2",
+        "description": "After OTP verification, the client will provide the following information:",
+                "fieldsTitle": "Required Information",
+        "processTitle": "Verification Process",
+        "fields": [
+          "CNIC expiry date",
+          "Bank name",
+          "Selected account type",
+          "Father’s/Husband’s name",
+          "Date of birth",
+          "Place of birth",
+          "Nationality",
+          "Marital status",
+          "Gender",
+          "Mother’s name",
+          "Postal address",
+          "Permanent address",
+          "Occupation details",
+          "Annual income",
+          "Zakat status"
+        ],
+        "process": [
+          "The broker will submit this form to eClear for verification.",
+          "eClear will verify the client’s details and send the form to NCCPL via API for further processing."
+        ]
+      },
+      "completion": "After completing all these steps, your account will be successfully opened.",
+      "completionTitle": "Account Completion"
+    },    
+    
+    "jazzcash": {
+      "heading": "How to Open a JazzCash Account",
+      "introduction": "Follow this comprehensive video guide to open a JazzCash mobile wallet account. JazzCash provides a convenient way to manage finances, make payments, and transfer money within Pakistan.",
+      "features": {
+        "heading": "Key Features",
+        "list": [
+          "Mobile money transfers",
+          "Bill payments",
+          "Mobile top-ups",
+          "Online shopping"
+        ]
+      },
+      "requirements": {
+        "heading": "Requirements",
+        "list": [
+          "Valid CNIC",
+          "Active mobile number",
+          "Internet connection",
+          "Basic personal information"
+        ]
+      },
+      "videoGuide": {
+        "heading": "Video Guide Overview",
+        "description": "This comprehensive video tutorial walks you through the step-by-step process of creating a JazzCash account. It covers everything from downloading the app to completing verification and setting up your mobile wallet.",
+        "note": {
+          "heading": "Important Note",
+          "text": "Please ensure you have your CNIC and active Jazz/Warid mobile number ready before starting the registration process."
+        }
+      }
+    },
+    
+    "easypaisa": {
+      "heading": "How to Open an EasyPaisa Account",
+      "introduction": "Learn how to create and set up your EasyPaisa account with this detailed video tutorial. EasyPaisa is one of Pakistan's leading mobile wallets for digital payments and financial services.",
+      "features": {
+        "heading": "Key Features",
+        "list": [
+          "Money transfers",
+          "Utility bill payments",
+          "Mobile load and bundles",
+          "Savings and loan services"
+        ]
+      },
+      "requirements": {
+        "heading": "Requirements",
+        "list": [
+          "Original CNIC",
+          "Telenor SIM (for full services)",
+          "Smartphone with internet",
+          "Basic personal details"
+        ]
+      },
+      "videoGuide": {
+        "heading": "Video Guide Overview",
+        "description": "This video tutorial provides detailed instructions on how to register and set up your EasyPaisa account. Follow along as the guide walks through each step of the process, including verification and account activation.",
+        "note": {
+          "heading": "Important Note",
+          "text": "For the best experience, use a Telenor SIM card. However, users with other network SIMs can still use EasyPaisa with limited functionality."
+        }
+      }
+    },
+    
+    "cta": {
+      "heading": "Ready to Start Your Financial Journey?",
+      "description": "Set up your accounts today and begin managing your finances with confidence.",
+      "buttons": {
+        "stock": "Open Stock Account",
+        "jazzcash": "Open JazzCash Account",
+        "easypaisa": "Open EasyPaisa Account"
+      }
+    }
   }
+
   
 }

@@ -42,7 +42,7 @@ export default function Home() {
           </h2>
           <p className="mt-4 text-gray-600">{t('hero.subtitle')}</p>
           <div className="mt-6 flex flex-col md:flex-row gap-4">
-            <Button className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600">
+            <Button className="bg-indigo-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600">
               {t('hero.ctaStart')}
             </Button>
           </div>
@@ -59,7 +59,7 @@ export default function Home() {
             width={500}
             height={400}
             alt="Woman Smiling"
-            className="rounded-lg border-4 border-blue-500"
+            className="rounded-lg border-4 border-indigo-500"
           />
         </motion.div>
       </section>

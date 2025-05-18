@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 interface BadgeProps {
   text: string;
@@ -50,6 +51,7 @@ const ImageContainer = ({ src, alt, priority = false }: ImageContainerProps) => 
 );
 
 const ImageShowcase = () => {
+  const t = useTranslations('ImageShowcase');
   return (
     <div className="p-4 sm:p-6 lg:p-12 relative overflow-hidden z-100">
       <div className="max-w-5xl mx-auto relative">
@@ -60,7 +62,7 @@ const ImageShowcase = () => {
             {/* Top Image with Easy Badge */}
             <div className="relative">
               <div className="absolute -top-4 -left-4 z-10">
-                <Badge text="Easy" color="orange" />
+                <Badge text={t('easy')} color="orange" />
               </div>
               <ImageContainer 
                 src="/woman-laptop.jpg"
@@ -81,7 +83,7 @@ const ImageShowcase = () => {
             {/* Financial Literacy Image */}
             <div className="relative">
               <div className="absolute -bottom-4 -right-4 z-10">
-                <Badge text="Empower" color="yellow" />
+                <Badge text={t('empower')} color="yellow" />
               </div>
               <ImageContainer 
                 src="/financial-literacy.jpg"

@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 import { Instagram, Facebook, Twitter } from 'lucide-react';
 
 interface FooterLink {
@@ -8,38 +9,40 @@ interface FooterLink {
 }
 
 const Footer: FC = () => {
+  const t = useTranslations("AppLayout");  
   const navigationLinks: FooterLink[] = [
-    { label: 'Home', href: '/' },
-    { label: 'About Us', href: '/about' },
-    { label: 'Microfinance Apps', href: '/apps' },
-    { label: 'Financial Literacy', href: '/literacy' },
-    { label: 'Contact Us', href: '/contact' },
+    { label: t('home'), href: '/' },
+    { label: t('stockMarket'), href: '/stock-market' },
+    { label: t('halalInvestments'), href: '/halal-investments' },
+    { label: t('tutorials'), href: '/tutorials' },
+    { label: t('aboutUs'), href: '/about' },
+    { label: t('contactUs'), href: '/contact' },
   ];
 
   const socialLinks = [
     { 
       icon: <Instagram className="w-5 h-5" />, 
       href: 'https://instagram.com/pakfinancials',
-      label: 'Instagram'
+      label: t('socialMedia.instagram')
     },
     { 
       icon: <Facebook className="w-5 h-5" />, 
       href: 'https://facebook.com/pakfinancials',
-      label: 'Facebook'
+      label: t('socialMedia.facebook')
     },
     { 
       icon: <Twitter className="w-5 h-5" />, 
       href: 'https://twitter.com/pakfinancials',
-      label: 'Twitter'
+      label: t('socialMedia.twitter')
     },
   ];
 
   return (
-    <footer className="bg-[#4A90E2] text-white py-12 px-4">
+    <footer className="bg-indigo-800 text-white py-12 px-4">
       <div className="max-w-4xl mx-auto">
         {/* Logo */}
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold mb-8">Pakfinancials</h2>
+          <h2 className="text-3xl font-bold mb-8">{t('title')}</h2>
         </div>
 
         {/* Navigation Links */}
@@ -64,7 +67,7 @@ const Footer: FC = () => {
             <Link
               key={social.label}
               href={social.href}
-              className="bg-white p-3 rounded-full text-[#4A90E2] hover:bg-gray-100 transition-colors duration-200"
+              className="bg-white p-3 rounded-full text-indigo-800 hover:bg-gray-100 transition-colors duration-200"
               aria-label={social.label}
             >
               {social.icon}
@@ -74,7 +77,7 @@ const Footer: FC = () => {
 
         {/* Copyright */}
         <div className="text-center text-sm">
-          <p>© pakfinancials 2025. All Rights Reserved</p>
+          <p>{t("copyright")}</p>
         </div>
       </div>
     </footer>

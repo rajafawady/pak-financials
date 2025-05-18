@@ -15,26 +15,84 @@ export function Navbar() {
 
   return (
     <nav className="bg-white shadow-md">
-      <div className="container mx-auto flex items-center justify-between py-4 px-6">
+      <div className="container mx-auto flex items-center justify-between py-4 px-6 bg-indigo-800 text-white">
         {/* Logo */}
-        <Link href="/" className="text-lg font-bold text-primary">
-          <h1 className="text-2xl font-bold text-blue-500">Pakfinancials</h1>
+        <Link href="/" className="text-lg font-bold">
+          <h1 className="text-2xl font-bold text-white">{t('title')}</h1>
         </Link>
 
         {/* Navigation Menu for Large Screens */}
-        <div className="hidden md:flex items-center space-x-6">
-          <NavigationMenu>
+        <div className="hidden md:flex items-center space-x-6 ">
+          <NavigationMenu className={t('direction') === 'rtl' ? 'flex-row-reverse' : ''}>
             <NavigationMenuList className="flex space-x-6">
               {/* Menu Item 1 */}
               <NavigationMenuItem>
-                <NavigationMenuLink asChild>
-                  <Link
-                    href='/'
-                    className={pathname === '/' ? 'border-b-2 border-slate-900 text-slate-900' : 'text-slate-600 hover:border-b-slate-300 hover:text-slate-900'}
-                  >
-                    {t('home')} {/* Translated string */}
-                  </Link>
-                </NavigationMenuLink>
+          <NavigationMenuLink asChild>
+            <Link
+              href='/'
+              className={pathname === '/' ? 'border-b-2 border-white-900 text-white-900' : 'text-white-600 hover:border-b-slate-300 hover:text-slate-900'}
+            >
+              {t('home')} {/* Translated string */}
+            </Link>
+          </NavigationMenuLink>
+              </NavigationMenuItem>
+
+              {/* Menu Item 2 */}
+              <NavigationMenuItem>
+          <NavigationMenuLink asChild>
+            <Link
+              href='/stock-market'
+              className={pathname === '/stock-market' ? 'border-b-2 border-white-900 text-white-900' : 'text-white-600 hover:border-b-slate-300 hover:text-slate-900'}
+            >
+              {t('stockMarket')} {/* Translated string */}
+            </Link>
+          </NavigationMenuLink>
+              </NavigationMenuItem>
+              {/* Menu Item 3 */}
+              <NavigationMenuItem>
+          <NavigationMenuLink asChild>
+            <Link
+              href='/halal-investments'
+              className={pathname === '/halal-investments' ? 'border-b-2 border-white-900 text-white-900' : 'text-white-600 hover:border-b-slate-300 hover:text-slate-900'}
+            >
+              {t('halalInvestments')} {/* Translated string */}
+            </Link>
+          </NavigationMenuLink>
+              </NavigationMenuItem>
+              {/* Menu Item 4 */}
+              <NavigationMenuItem>
+          <NavigationMenuLink asChild>
+            <Link
+              href='/tutorials'
+              className={pathname === '/tutorials' ? 'border-b-2 border-white-900 text-white-900' : 'text-white-600 hover:border-b-slate-300 hover:text-slate-900'}
+            >
+              {t('tutorials')} {/* Translated string */}
+            </Link>
+          </NavigationMenuLink>
+              </NavigationMenuItem>
+              
+              {/* Menu Item 5 - About Us */}
+              <NavigationMenuItem>
+          <NavigationMenuLink asChild>
+            <Link
+              href='/about'
+              className={pathname === '/about' ? 'border-b-2 border-white-900 text-white-900' : 'text-white-600 hover:border-b-slate-300 hover:text-slate-900'}
+            >
+              {t('aboutUs')} {/* Translated string */}
+            </Link>
+          </NavigationMenuLink>
+              </NavigationMenuItem>
+              
+              {/* Menu Item 6 - Contact Us */}
+              <NavigationMenuItem>
+          <NavigationMenuLink asChild>
+            <Link
+              href='/contact'
+              className={pathname === '/contact' ? 'border-b-2 border-white-900 text-white-900' : 'text-white-600 hover:border-b-slate-300 hover:text-slate-900'}
+            >
+              {t('contactUs')} {/* Translated string */}
+            </Link>
+          </NavigationMenuLink>
               </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
@@ -48,7 +106,7 @@ export function Navbar() {
         {/* Hamburger Icon for Small Screens */}
         <button
           onClick={toggleMenu}
-          className="md:hidden text-slate-600 focus:outline-none"
+          className="md:hidden text-white-600 focus:outline-none"
         >
           <Menu className="h-6 w-6" />
         </button>
@@ -63,12 +121,69 @@ export function Navbar() {
               <NavigationMenuLink asChild>
                 <Link
                   href='/'
-                  className={pathname === '/' ? 'border-b-2 border-slate-900 text-slate-900' : 'text-slate-600 hover:border-b-slate-300 hover:text-slate-900'}
+                  className={pathname === '/' ? 'border-b-2 border-white-900 text-white-900' : 'text-white-600 hover:border-b-slate-300 hover:text-slate-900'}
                 >
                   {t('home')} {/* Translated string */}
                 </Link>
               </NavigationMenuLink>
             </NavigationMenuItem>
+
+                {/* Menu Item 2 */}
+              <NavigationMenuItem> 
+                                            <NavigationMenuLink asChild>
+                  <Link
+                    href='/stock-market'
+                    className={pathname === '/stock-market' ? 'border-b-2 border-white-900 text-white-900' : 'text-white-600 hover:border-b-slate-300 hover:text-slate-900'}
+                  >
+                    {t('stockMarket')} {/* Translated string */}
+                  </Link>
+                </NavigationMenuLink>
+              </NavigationMenuItem>
+              {/* Menu Item 3 */}
+              <NavigationMenuItem>
+                <NavigationMenuLink asChild>
+                  <Link
+                    href='/halal-investments'
+                    className={pathname === '/halal-investments' ? 'border-b-2 border-white-900 text-white-900' : 'text-white-600 hover:border-b-slate-300 hover:text-slate-900'}
+                  >
+                    {t('halalInvestments')} {/* Translated string */}
+                  </Link>
+                </NavigationMenuLink>
+              </NavigationMenuItem>
+              {/* Menu Item 4 */}
+              <NavigationMenuItem>
+                <NavigationMenuLink asChild>
+                  <Link
+                    href='/tutorials'
+                    className={pathname === '/tutorials' ? 'border-b-2 border-white-900 text-white-900' : 'text-white-600 hover:border-b-slate-300 hover:text-slate-900'}                  >
+                    {t('tutorials')} {/* Translated string */}
+                  </Link>
+                </NavigationMenuLink>
+              </NavigationMenuItem>
+              
+              {/* Menu Item 5 - About Us */}
+              <NavigationMenuItem>
+                <NavigationMenuLink asChild>
+                  <Link
+                    href='/about'
+                    className={pathname === '/about' ? 'border-b-2 border-white-900 text-white-900' : 'text-white-600 hover:border-b-slate-300 hover:text-slate-900'}
+                  >
+                    {t('aboutUs')} {/* Translated string */}
+                  </Link>
+                </NavigationMenuLink>
+              </NavigationMenuItem>
+              
+              {/* Menu Item 6 - Contact Us */}
+              <NavigationMenuItem>
+                <NavigationMenuLink asChild>
+                  <Link
+                    href='/contact'
+                    className={pathname === '/contact' ? 'border-b-2 border-white-900 text-white-900' : 'text-white-600 hover:border-b-slate-300 hover:text-slate-900'}
+                  >
+                    {t('contactUs')} {/* Translated string */}
+                  </Link>
+                </NavigationMenuLink>
+              </NavigationMenuItem>
 
             {/* Locale Switcher on Mobile */}
             <NavigationMenuItem>

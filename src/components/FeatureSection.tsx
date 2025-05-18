@@ -1,5 +1,7 @@
 import { Search, Globe, GraduationCap, LoaderPinwheel } from 'lucide-react';
-import { FC } from 'react';
+import { FC, useEffect, useState } from 'react';
+import { useTranslations } from 'next-intl';
+import { useLocale } from 'next-intl';
 
 interface FeatureCardProps {
   title: string;
@@ -9,6 +11,9 @@ interface FeatureCardProps {
 }
 
 const FeatureCard: FC<FeatureCardProps> = ({ title, titleHighlight, description, icon: Icon }) => {
+  const locale = useLocale();
+  const isRTL = locale === 'ur';
+  
   return (
     <div className="relative bg-gray-100 rounded-3xl p-8 mb-6 lg:mb-0">
       <div className="mb-6">
@@ -17,7 +22,7 @@ const FeatureCard: FC<FeatureCardProps> = ({ title, titleHighlight, description,
             <div key={index}>
               {part}
               {index < array.length - 1 && (
-                <span className="text-blue-500">{titleHighlight}</span>
+                <span className="text-indigo-500">{titleHighlight}</span>
               )}
             </div>
           ))}
@@ -29,9 +34,9 @@ const FeatureCard: FC<FeatureCardProps> = ({ title, titleHighlight, description,
       <div className="mt-8">
         <Icon className="w-12 h-12 text-emerald-600" />
       </div>
-      <div className="absolute bottom-8 right-4">
+      <div className={`absolute bottom-8 ${isRTL ? 'right-4' : 'right-4'}`}>
         <button className="bg-gray-200 p-4 rounded-full hover:bg-gray-300 transition-colors">
-          <Search className="w-6 h-6 text-blue-500" />
+          <Search className="w-6 h-6 text-indigo-500" />
         </button>
       </div>
     </div>
@@ -39,40 +44,46 @@ const FeatureCard: FC<FeatureCardProps> = ({ title, titleHighlight, description,
 };
 
 const FeatureSection = () => {
+  const t = useTranslations('FeatureSection');
+  const locale = useLocale();
+  const [isRTL, setIsRTL] = useState(false);
+  
+  // Detect RTL languages
+  useEffect(() => {
+    setIsRTL(locale === 'ur');
+  }, [locale]);
+
   const features = [
     {
-      title: "Absences can hinder financial progress",
-      titleHighlight: "hinder",
-      description: "Pakfinancials provides timely resources that minimize disruptions in your financial education journey.",
+      title: t('features.0.title'),
+      titleHighlight: t('features.0.titleHighlight'),
+      description: t('features.0.description'),
       icon: LoaderPinwheel
     },
     {
-      title: "Streamlined process to integrate microfinance solutions",
-      titleHighlight: "integrate",
-      description: "Our platform helps you effectively connect with the necessary financial tools and services.",
+      title: t('features.1.title'),
+      titleHighlight: t('features.1.titleHighlight'),
+      description: t('features.1.description'),
       icon: Globe
     },
     {
-      title: "Continuous support keeps your education thriving in finance",
-      titleHighlight: "your education thriving",
-      description: "Pakfinancials is dedicated to helping you maintain financial confidence and stability.",
+      title: t('features.2.title'),
+      titleHighlight: t('features.2.titleHighlight'),
+      description: t('features.2.description'),
       icon: GraduationCap
     }
   ];
 
   return (
-    <div className="min-h-screen p-6 lg:p-12">
+    <div className={`min-h-screen p-6 lg:p-12 ${isRTL ? 'rtl' : 'ltr'}`}>
       {/* Header Section */}
       <div className="max-w-5xl mx-auto mb-12">
         <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-          Financial Future with Pakfinancials
+          {t('header.title')}
         </h1>
         
         <p className="text-gray-600 text-lg lg:text-xl leading-relaxed">
-          Gain essential insights into financial literacy with our platform, 
-          empowering you to confidently navigate your financial journey. 
-          Discover how microfinance apps like Easypaisa and Jazzcash can 
-          facilitate better financial management in Pakistan.
+          {t('header.description')}
         </p>
       </div>
 

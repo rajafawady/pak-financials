@@ -41,7 +41,7 @@ export default function LocaleSwitcherSelect({
           className="w-15 h-15 rounded-sm p-2"
           disabled={isPending}
         >
-          <Globe className="h-6 w-6 text-slate-600 hover:text-slate-900" />
+          <Globe className="h-6 w-6 text-white-600 hover:text-slate-900" />
           <span className="sr-only">{label}</span>
         </Button>
       </DropdownMenuTrigger>
