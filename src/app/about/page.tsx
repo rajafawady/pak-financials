@@ -8,8 +8,7 @@ import {
   Heart, 
   Lightbulb, 
   UserCheck, 
-  Globe,
-  BarChart3
+  Globe
 } from "lucide-react";
 
 export default function AboutUsPage() {

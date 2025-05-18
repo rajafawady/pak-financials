@@ -1,8 +1,9 @@
 'use client';
+import React from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import Head from 'next/head';
 import { FaChartLine, FaMoneyBillWave, FaHandHoldingUsd, FaUniversity, 
-         FaExclamationTriangle, FaCheckCircle, FaLightbulb, FaQuestionCircle,
+         FaExclamationTriangle, FaLightbulb, FaQuestionCircle,
          FaFileContract, FaBalanceScale, FaHandshake, FaBook } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 

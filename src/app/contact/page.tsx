@@ -1,7 +1,7 @@
 "use client";
 import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { 
   Mail, 
   Phone, 
